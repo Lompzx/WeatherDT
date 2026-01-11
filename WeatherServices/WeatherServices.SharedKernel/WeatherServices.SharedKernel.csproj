@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>    
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Asp.Versioning.Mvc" />
+      <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" />
+      <PackageReference Include="Serilog" />
+      <PackageReference Include="Serilog.AspNetCore" />
+      <PackageReference Include="Serilog.Enrichers.CorrelationId" />
+      <PackageReference Include="Serilog.Exceptions" />
+      <PackageReference Include="Serilog.Sinks.Async" />
+      <PackageReference Include="Swashbuckle.AspNetCore" />
+      <PackageReference Include="MediatR" />
+      <PackageReference Include="FluentAssertions" />
+      <PackageReference Include="FluentValidation" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+      <PackageReference Include="AutoMapper" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\MediatR\ExceptionHandling\" />
+    <Folder Include="Core\Domain\Exceptions\" />
+  </ItemGroup>
+
+</Project>

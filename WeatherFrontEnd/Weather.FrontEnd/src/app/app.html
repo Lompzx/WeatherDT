@@ -1,0 +1,32 @@
+<nav class="flex justify-between items-center px-5 py-2 bg-[#282c34]">  
+  <!-- Itens do menu à esquerda -->
+  <ul class="flex list-none m-0 p-0">
+    <li class="ml-5">
+      <a
+        routerLink="/forecast"
+        routerLinkActive="underline"
+        class="text-white no-underline text-base hover:underline"
+        >Weather Forecast</a
+      >
+    </li>
+    <li class="ml-5">
+      <a
+        routerLink="/favorites"
+        routerLinkActive="underline"
+        class="text-white no-underline text-base hover:underline"
+        >Favorites</a>
+    </li>    
+  </ul>  
+  
+  <div class="flex items-center">
+    <button
+      (click)="logout()"
+      class="text-white no-underline text-base hover:underline bg-transparent border-none cursor-pointer ml-5"
+      >
+      Logout
+    </button>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+
+

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>    
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" />
+        <PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" CopyLocalLockFileAssemblies="true" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" CopyLocalLockFileAssemblies="true" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WeatherServices.SharedKernel\WeatherServices.SharedKernel.csproj" />
+    </ItemGroup>
+    
+</Project>
