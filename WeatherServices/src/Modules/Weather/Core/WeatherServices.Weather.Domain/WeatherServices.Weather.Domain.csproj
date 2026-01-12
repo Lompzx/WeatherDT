@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WeatherServices.SharedKernel\WeatherServices.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\..\..\BuildingBlocks\WeatherServices.SharedKernel\WeatherServices.SharedKernel.csproj" />
   </ItemGroup>
 
 </Project>

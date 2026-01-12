@@ -4,23 +4,27 @@
     <File Path=".gitignore" />
     <File Path="Directory.Packages.props" />
   </Folder>
+
   <Folder Name="/src/" />
   <Folder Name="/src/BuildingBlocks/">
-    <Project Path="WeatherServices.DatabaseManagement/WeatherServices.DatabaseManagement.csproj" Id="f736d03f-d4d2-4122-b31f-57b6d8e0ac21" />
-    <Project Path="WeatherServices.Identity/WeatherServices.Identity.csproj" Id="6b3c5229-cbd9-49cb-a748-18a01b245103" />
-    <Project Path="WeatherServices.SharedKernel/WeatherServices.SharedKernel.csproj" />
-    <Project Path="WeatherServices.WeatherAPI/WeatherServices.WeatherAPI.csproj" Id="0f8e8320-09b4-4870-8abe-7e13911936b4" />
+    <Project Path="src/BuildingBlocks/WeatherServices.DatabaseManagement/WeatherServices.DatabaseManagement.csproj" />
+    <Project Path="src/BuildingBlocks/WeatherServices.Identity/WeatherServices.Identity.csproj" />
+    <Project Path="src/BuildingBlocks/WeatherServices.SharedKernel/WeatherServices.SharedKernel.csproj" />
+    <Project Path="src/BuildingBlocks/WeatherServices.WeatherAPI/WeatherServices.WeatherAPI.csproj"/>
   </Folder>
+
   <Folder Name="/src/Modules/" />
   <Folder Name="/src/Modules/Weather/" />
   <Folder Name="/src/Modules/Weather/Adapters/">
-    <Project Path="WeatherServices.Weather.SqlServer/WeatherServices.Weather.SqlServer.csproj" Id="d7265c95-99a6-4522-9553-4706f4fe9dc0" />
+    <Project Path="src/Modules/Weather/Adapters/WeatherServices.Weather.SqlServer/WeatherServices.Weather.SqlServer.csproj" />
   </Folder>
+
   <Folder Name="/src/Modules/Weather/Core/">
-    <Project Path="WeatherServices.Weather.Application/WeatherServices.Weather.Application.csproj" Id="898e4b9a-e093-4041-baa9-d9443d91ae6c" />
-    <Project Path="WeatherServices.Weather.Domain/WeatherServices.Weather.Domain.csproj" Id="e749c142-e7eb-4e1a-af23-cb4aecc0f0dc" />
+    <Project Path="src/Modules/Weather/Core/WeatherServices.Weather.Application/WeatherServices.Weather.Application.csproj" />
+    <Project Path="src/Modules/Weather/Core/WeatherServices.Weather.Domain/WeatherServices.Weather.Domain.csproj"/>
   </Folder>
+
   <Folder Name="/src/Modules/Weather/Ports/">
-    <Project Path="WeatherServices.Weather.API/WeatherServices.Weather.API.csproj" />
+    <Project Path="src/Modules/Weather/Ports/WeatherServices.Weather.API/WeatherServices.Weather.API.csproj" />
   </Folder>
 </Solution>

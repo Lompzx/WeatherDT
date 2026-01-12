@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>    
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\BuildingBlocks\WeatherServices.DatabaseManagement\WeatherServices.DatabaseManagement.csproj" />
+    <ProjectReference Include="..\..\..\..\BuildingBlocks\WeatherServices.SharedKernel\WeatherServices.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\Core\WeatherServices.Weather.Domain\WeatherServices.Weather.Domain.csproj" />     
+    
+  </ItemGroup>
+
+</Project>
